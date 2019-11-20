@@ -41,6 +41,10 @@ h2 {
   color: #dddddd;
 }
 
+.light-text-color {
+  color: #e0e0e0;
+}
+
 .white {
     color: white;
 }
@@ -70,10 +74,13 @@ h2 {
 }
 
 .main-articles-container {
-    border:.5px white solid ;
     width: 50%;
     height: 700px;
     display: flex;
+}
+
+.general-border {
+  border: .5px white solid;
 }
 
 .main-article {
@@ -132,9 +139,10 @@ h2 {
 }
 
 .flex-3articles-container {
-  height: 500px;
+  height: 600px;
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .related-article {
@@ -142,4 +150,13 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.related-article:hover {
+  transform: scale(1.1);
+}
+
+.related-article-header {
+  text-decoration: underline;
+  font-size: 25px;
 }
