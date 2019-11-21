@@ -57,6 +57,23 @@ h2 {
     justify-content: center;
 }
 
+.main-top-articles {
+  padding-top: 30%;
+}
+
+.principal-title{
+  font-size: 25px;
+  text-align: center;
+}
+
+.principal-title-container{
+  display: inline-block;
+  width: 25%;
+  position: absolute;
+  top: 33%;
+  left: 37%;
+}
+
 .nav-child {
     margin-left: 1%;
     border: 1px white solid;
@@ -69,13 +86,14 @@ h2 {
 }
 
 .flex-main-articles-parent {
+    
     display: flex;
     flex-flow: row wrap;
 }
 
 .main-articles-container {
     width: 50%;
-    height: 700px;
+    height: 800px;
     display: flex;
 }
 
@@ -86,7 +104,7 @@ h2 {
 .main-article {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
@@ -122,7 +140,7 @@ h2 {
 
 
 .main-margin {
-  margin-left: 3%;
+  margin-left: 15%;
 }
 
 .article-main-content {
@@ -160,3 +178,13 @@ h2 {
   text-decoration: underline;
   font-size: 25px;
 }
+/* Mohamed Sabry 5:24 PM
+.arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+a.normal:hover .arrow {
+  background: blue;
+} */
