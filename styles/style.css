@@ -174,18 +174,26 @@ h2 {
 
 .related-article:hover {
   transform: scale(1.1);
-}
+  border-radius: 2%;
+  border: .1px solid
+      rgba(255, 255, 255, .1);
+      z-index: 2;
+      margin: 3% 0;
+  }
 
-/* .arrow-container {
-  width: 10%;
-  height: 10%;
-  background-color: #262626;
+.related-article:hover  > .arrow-container {
+  margin: 3%;
+  width: 20%;
+  height: 15%;
+  background-color:
+  #262626;
+  text-align: center;
 }
 
 .related-article-header {
   text-decoration: underline;
   font-size: 25px;
-} */
+} 
 /* Mohamed Sabry 5:24 PM
 .arrow {
   display: block;
