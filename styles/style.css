@@ -62,16 +62,18 @@ h2 {
 }
 
 .principal-title{
-  font-size: 25px;
-  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 1%;
 }
 
 .principal-title-container{
   display: inline-block;
-  width: 25%;
+  text-align: center;
+  width: 32%;
   position: absolute;
   top: 33%;
-  left: 37%;
+  left: 34%;
 }
 
 .nav-child {
@@ -174,10 +176,16 @@ h2 {
   transform: scale(1.1);
 }
 
+/* .arrow-container {
+  width: 10%;
+  height: 10%;
+  background-color: #262626;
+}
+
 .related-article-header {
   text-decoration: underline;
   font-size: 25px;
-}
+} */
 /* Mohamed Sabry 5:24 PM
 .arrow {
   display: block;
