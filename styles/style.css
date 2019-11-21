@@ -98,7 +98,7 @@ h2 {
 }
 
 .box-radius {
-  border-radius: 5%;
+  border-radius: 15%;
 }
 
 .small-author-icon:hover {
@@ -129,4 +129,17 @@ h2 {
 
 .article-link {
   margin-left: 1%;
+}
+
+.flex-3articles-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.related-article {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
