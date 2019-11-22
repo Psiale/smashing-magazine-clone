@@ -334,3 +334,38 @@ justify-self: flex-start;
   line-height: 200%;
   width: 50%;
 }
+
+.bio-text {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.bio-articles-container {
+  margin: 5% 0;
+  width: 50%;
+  height: 350px;
+  display: flex;
+}
+
+.bio-main-content {
+text-align: center;
+}
+
+.bio-article {
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.bio-icon {
+  width: 11%;
+  height: 175%;
+  transform: rotate(-20deg);
+}
+
+.bio-icon:hover {
+  transform: rotate(0deg);
+}
