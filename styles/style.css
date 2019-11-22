@@ -176,9 +176,9 @@ h2 {
   transform: scale(1.1);
   border-radius: 2%;
   border: .1px solid
-      rgba(255, 255, 255, .1);
-      z-index: 2;
-      margin: 3% 0;
+rgba(255, 255, 255, .1);
+  z-index: 2;
+  margin: 3% 0;
   }
 
 .related-article:hover  > .arrow-container {
@@ -194,13 +194,30 @@ h2 {
   text-decoration: underline;
   font-size: 25px;
 } 
-/* Mohamed Sabry 5:24 PM
-.arrow {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: red;
+
+.grid-advertise-container {
+  margin: 2%;
+  width: 95vw;
+  height: 700px;
+  gap: 3%;
+  display: grid;
+  grid-template-columns: repeat(1,4fr 2fr);
+
 }
-a.normal:hover .arrow {
-  background: blue;
-} */
+
+.big-box {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 1 / 3;
+
+}
+
+.small-box {
+  background-color: yellow;
+  grid-column: 2;
+  grid-row:1 / 2 ;
+}
+
+.ad-box {
+  border-radius: 2%;
+}
