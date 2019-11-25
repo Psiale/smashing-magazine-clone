@@ -341,6 +341,10 @@ justify-self: flex-start;
   padding: 0 10%;
 }
 
+#big-bio {
+  width: 100%;
+}
+
 .bio-articles-container {
   margin: 5% 0;
   width: 50%;
@@ -366,6 +370,30 @@ text-align: center;
   transform: rotate(-20deg);
 }
 
+#big-bio-icon {
+  width: 62%;
+  height: 367%;
+  margin: 0 4%;
+}
+
 .bio-icon:hover {
   transform: rotate(0deg);
+}
+
+.big-bio-article-container{
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-big-icon-text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.big-bio-main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
