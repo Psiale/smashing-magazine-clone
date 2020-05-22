@@ -16,7 +16,12 @@ Basic HTML and CSS
 
 
 # Credits
-### https://github.com/Psiale
+
+👤 **Alexis Sanchez**
+
+- Github: [Alexis Sanchez](https://github.com/Psiale)
+- Twitter: [Alexis Sanchez](https://twitter.com/TFH_)
+- Linkedin: [Alexis Sanchez](https://www.linkedin.com/in/alexis-sanchez-dev/)
 
 # Live Version
-### https://rawcdn.githack.com/Psiale/smashing-magazine-clone/1a69cee6e98f52f0ef76be078be7313ee9260520/index.html
+[live-clone](https://rawcdn.githack.com/Psiale/smashing-magazine-clone/1a69cee6e98f52f0ef76be078be7313ee9260520/index.html)
